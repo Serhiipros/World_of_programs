@@ -1,0 +1,904 @@
+<html>
+  <style>
+  body {
+      font-family: sans-serif;
+      background-color:lightblue;
+  }
+  
+  header h1{
+      text-align:center;
+      color:cyan;
+      padding-top:20px;
+      font-size:40px;
+  }
+  
+  header{
+      background-image:linear-gradient(to right,red,purple,red);
+      text-align: center;
+      padding-bottom:20px;
+  
+  }
+  header nav a{
+      color:black;
+      font-size:13px;
+      padding:10px;
+      text-decoration:none;
+      opacity:0.7;
+      transition:1s ease-in;
+  }
+  
+  header nav a:hover{
+      font-size:25px;
+      opacity:1;
+  
+  
+  }
+  .first:hover{
+      font-size:60px;
+  
+  }
+  .first{
+          transition:2s;
+  }
+  
+  
+  table{
+      border:7px solid green;
+      padding:5px;
+      border-collapse: collapse;
+      background-color:lightcyan;
+  }
+  td{
+      padding:7px;
+  }
+  tr{
+      border:3px solid green;
+  
+  }
+  tr td{
+      border-right: 3px solid green;
+  }
+  tr:first-child td:first-child{
+      background-color:lightblue;
+      color:darkblue;
+      font-size:20px;
+      
+  }
+  tr:first-child{
+      background-color:rgb(184, 255, 255);
+  }
+  td:first-child{
+      background-color:rgb(184, 255, 255);
+  }
+  .h1_table{
+      text-align:center;
+      transition:1s ease-in;
+      font-size:30px;
+  }
+  .h1_table:hover{
+      font-size:40px;
+      color:darkcyan;
+  
+  }
+  
+  
+  
+  .company{
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+  
+  }
+  .company p{
+      font-size:20px;
+      padding-bottom:10px;
+      padding-right:5px;
+      padding-left:5px;
+      text-align:center;
+  }
+  
+  .company h2{
+      text-align:center;
+      padding-top:10px;
+  }
+  
+  .compaany{
+      padding:10px;
+      margin-bottom:30px;
+  }
+  
+  
+  .company2:hover{
+      font-size:40px;
+      color:darkcyan;
+  
+      
+  }
+  
+  .company2{
+      transition:1s ease-in;
+      font-size:30px;
+  }
+  
+  .prog{
+      text-align:center;
+      transition:1s ease-in;
+      font-size:30px;
+  
+  }
+  
+  .prog:hover{
+      color:darkcyan;
+      font-size:40px;
+  
+  }   
+  
+  .text{
+      display:flex;
+      align-items:center;
+      gap:15px;
+  }
+  
+  .text2{
+      padding:15px;
+  
+      font-size:20px;
+      background-color:lightcyan;;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+      
+  }
+  
+  
+  .worker{
+      text-align:center;
+      transition:1s ease-in;
+      font-size:30px;
+  }
+  
+  .worker:hover{
+      font-size:40px;
+      color:darkcyan;
+  
+  }
+  
+  .Andriy{
+      display:flex;
+      align-items:center;
+      margin-bottom:50px;
+  
+  }
+  
+  .And_img{
+      opacity:0.5;
+  
+  }
+  
+  .And_img:hover{
+      opacity:1;
+      border:15px double darkblue;    
+      transition:1s ease-in;
+  }
+  
+  .text_And{
+      margin-left:15px;
+      padding:10px;
+      font-size:20px;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+  }
+  
+  .Oleh{
+      display:flex;
+      align-items:center;
+      margin-bottom:50px;
+  }
+  
+  
+  .text_Oleh{
+      margin-left:15px;
+      padding:10px;
+      font-size:20px;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+  }
+  
+  .img_Oleh{
+      opacity:0.5;
+  
+  }
+  .img_Oleh:hover{
+      opacity:1;
+      border:15px double darkblue;
+      transition:1s linear;
+  }
+  
+  .Artem{
+      display:flex;
+      align-items:center;
+      margin-bottom:50px;
+  }
+  
+  .text_Artem{
+      font-size:20px;
+      margin-left:15px;
+      padding:10px;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+  }
+  
+  .img_Artem{
+      opacity:0.5;
+  }
+  
+  .img_Artem:hover{
+      opacity:1;
+      border:15px double darkblue;
+      transition:1s linear;
+  }
+  
+  .Dima{
+      display:flex;
+      align-items:center;
+      margin-bottom:50px;
+  
+  }
+  
+  .text_Dima{
+      font-size:20px;
+      margin-left:15px;
+      padding:10px;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+  }
+  
+  .img_Dima{
+      opacity:0.5;
+  }
+  
+  .img_Dima:hover{
+      opacity:1;
+      border:15px double darkblue;
+      transition:1s linear;
+  }
+  
+  .Mark{
+      display:flex;
+      align-items:center;
+      margin-bottom:50px;
+  }
+  
+  .text_Mark{
+      font-size:20px;
+      margin-left:15px;
+      padding:10px;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+  }
+  
+  .img_Mark{
+      opacity:0.5;
+  }
+  
+  .img_Mark:hover{
+      opacity:1;
+      border:15px double darkblue;
+      transition:1s linear;
+  }
+  
+  
+  
+  
+  
+  
+  .information{
+      position:fixed;
+      right:0px;
+      top:150px;
+      width:150px;
+      height:200px;
+      background-image:linear-gradient(to bottom, lightblue,lightcyan,lightblue);
+      padding:15px;
+      text-align:center;
+      display:inline-block;
+      border-radius:25px 0px 0px 25px;
+  
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  
+  .prac{
+      font-size:20px;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+      padding:15px;
+  }
+  
+  
+  
+  .compaany{
+      font-size:20px;
+      text-align:center;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .iframe{
+      display:flex;
+      justify-content: center;
+      margin-inline:auto;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .NAV a{
+      position: absolute;
+      left:-120px;
+  
+      transition:0.3s;
+      padding:15px;
+      width:150px;
+      height:25px;
+      text-decoration:none;
+      font-size:15px;
+      color:white;
+      border-radius:0 5px 5px 0;
+  }
+  
+  
+  .NAV a:hover{
+      left:0;
+      opacity:1;
+  }
+  
+  
+  .about{
+      top:5220px;
+      background-color:#075891;
+  
+  }
+  
+  .blog{
+      top:5280px;
+      background-color:#4F8DBC;
+  
+  }
+  
+  .projects{
+      top:5340px;
+      background-color:#11619F;
+  
+  }
+  
+  .contact{
+      top:5400px;
+      background-color:#193CA6;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .python_h2{
+      text-align:center;
+      font-size:30px;
+      transition:1s ease-in;
+  }
+  
+  .python_h2:hover{
+      font-size:40px;
+      color:darkcyan;
+  }
+  .Python{
+      display:flex;
+      align-items: center;
+  }
+  
+  .text_python{
+      font-size:20px;
+      text-align:center;
+      padding:10px;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+  }
+  
+  .JavaScript{
+      display:flex;
+      align-items: center;
+  
+  }
+  
+  .text_Java_script{
+      font-size:20px;
+      text-align:center;
+      padding:10px;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+  }
+  .Javascript_h2{
+      text-align:center;
+  }
+  
+  
+  .world_of_programs_text_review{
+      text-align:center;
+      font-size:20px;
+      margin-bottom:30px;
+      padding:10px;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+  }
+  
+  
+  
+  
+  .mov_programs_h1{
+      text-align:center;
+      font-size:30px;
+      transition: 1s ease-in;
+      padding-bottom:15px;
+  }
+  
+  .mov_programs_h1:hover{
+      font-size:40px;
+      color:darkcyan;
+  }
+  
+  
+  .difficulty_programs{
+      text-align: center;
+      font-size:30px;
+      transition:1s ease-in;
+      padding-bottom:20px;
+  }
+  
+  .difficulty_programs:hover{
+      font-size:40px;
+      color:darkcyan;
+  }
+  
+  
+  
+  .work_prog_want{
+      margin-top:30px;
+      text-align:center;
+      font-size:20px;
+      padding:10px;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+  }
+  
+  
+  .video_programs_world{
+      display:flex;
+      align-items: center;
+  }
+  
+  .mov_programs_isny{
+      text-align:center;
+      margin-left:10px;
+      font-size:20px;
+      padding:10px;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+  }
+  
+  
+  .Javascript_h2{
+      text-align:center;
+      font-size:30px;
+      transition:1s ease-in;
+  }
+  .Javascript_h2:hover{
+      color:darkcyan;
+      font-size:40px;
+  }
+  
+  
+  
+  .Html{
+      display:flex;
+      align-items: center;
+  }
+  
+  .Html_text{
+      margin-left:20px;
+      text-align:center;
+      font-size:20px;
+      padding:10px;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+  }
+  
+  .Html_h2{
+      text-align:center;
+      font-size:30px;
+      transition:1s ease-in;
+  }
+  
+  .Html_h2:hover{
+      font-size:40px;
+      color:darkcyan;
+  }
+  
+  
+  
+  
+  .Css{
+      display:flex;
+      align-items: center;
+  }
+  .Css_text{
+      text-align:center;
+      font-size:20px;
+      padding:10px;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+  }
+  
+  
+  .Css_h2{
+      text-align:center;
+      font-size:30px;
+      transition:1s ease-in;
+  }
+  
+  .Css_h2:hover{
+      font-size:40px;
+      color:darkcyan;
+  }
+  
+  
+  .putania{
+      font-size:20px;
+      text-align:center;
+      margin-top:75px;
+      margin-left:50px;
+      background-image:linear-gradient(to right, lightblue,lightcyan,lightblue);
+      padding:10px;
+  }
+  
+  .information_2{
+      text-align:center;
+      font-size:30px;
+      transition:1s ease-in;
+  }
+  
+  .information_2:hover{
+      font-size:40px;
+      color:darkcyan;
+  }
+
+
+
+  
+  </style>
+
+
+<body>
+
+    <header>
+
+        <h1 class="first">World of programs</h1>
+        <nav>
+            <a class="table222" href="#table">Наші працівники</a>
+            <a class="prog222" href="#prog">Що таке програмування</a>
+            <a class="workers222" href="#workers">Наші найкращі працівники</a>
+            <a class="Music222" href="#Music">Мови програмування</a>
+            <a class="Sclad_prog222" href="#Sclad">Складності програмування</a>
+            <a class="information2" href="#information_2">World of programs інформація</a>
+        </nav>
+
+
+
+
+    </header>
+
+
+
+
+
+    <main>
+        <section class="company">
+            <h2 class="company2">Що робить моя компанія</h2>
+            <p>Моя компанія вивчає програмування як: <b><i>Python, JavaScript, Css,Html</i></b>. В ній є багато працівників та план
+                в нашій компанії стати найкращою!</p>
+        </section>
+        <section class="table">
+            <h2 class="h1_table" id="table">Наші працівники</h2>
+            <p class="prac">Наші працівники в компанії всі активні та завжди виконують все <b><i>правильно</i></b>. Це інформація про
+                наших працівників.</p>
+
+
+
+
+
+
+
+            <table>
+                <tr>
+                    <td><b><i>Інформація</i></b></td>
+                    <td><i>Дизайнери</i></td>
+                    <td><i>Аніматори</i></td>
+                    <td><i>Програмісти</i></td>
+                    <td><i>Кодери</i></td>
+                    <td><i>Командуючі</i></td>
+                </tr>
+
+                <tr>
+                    <td><b><i>Кількість</i></b></td>
+                    <td>150</td>
+                    <td>125</td>
+                    <td>200</td>
+                    <td>250</td>
+                    <td>75</td>
+                </tr>
+
+                <tr>
+                    <td><b><i>Завдання</i></b></td>
+                    <td>Вирішують кольори</td>
+                    <td>Роблять анімацію</td>
+                    <td>Роблять весь сайт</td>
+                    <td>Пишуть код</td>
+                    <td>Командують праіцвниками</td>
+                </tr>
+
+                <tr>
+                    <td><b><i>Досвід</i></b></td>
+                    <td>Досвідчені</td>
+                    <td>Досвідчені</td>
+                    <td>Добре виконують роботу</td>
+                    <td>Добре виконують роботу</td>
+                    <td>Знають своє діло</td>
+                </tr>
+
+
+            </table>
+        </section>
+
+
+        <section>
+
+            <h2 class="prog" id="prog">Що таке програмування</h2>
+            <div class="text">
+                <iframe width="400" height="300" src="https://www.youtube.com/embed/78AyoteTV7Y"
+                    title="Скільки часу потрібно, щоб стати програмістом? Скільки вчитись на джуна?" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="text2">Програмування трохи <b><i>важке</i></b>, якйщо його вивчати самим та нічого не знати. В мові
+                    програмування <b><i>Python</i></b> самими щось вивчити буде важко. Отож я вам покажу невелике відео як та скільки
+                    часу потрібно щоб стати <b><i>програмістом</i></b>. </p>
+
+            </div>
+        </section>
+        <section class="workeers">
+            <h2 class="worker" id="workers">Наші <b><i>найкращі</i></b> працівники</h2>
+            <p class="compaany">В компанії World of programs всі працівники <b><i>добре</i></b> виконують роботу, але я вам покажу
+                <b><i>найкращий</i></b> працівників до яких ви можете подзвонити та щось запитати.</p>
+            <div class="Andriy">
+                <img class="And_img" src="https://uamodna.com/assets/posts/image/j/d/t/jdt5akv6/fullsize.jpg" width="300px" height="400px" >
+                <p class="text_And"><b><i>Андрій</i></b> - <b><i>Дизайнер</i></b> який все встигає та завжди робить все найкраще з дизайнерів та
+                    рідко бере вихідні. Номер:<b><i>739406261862</i></b></p>
+            </div>
+
+
+
+
+            <div class="Oleh">
+                <img class="img_Oleh" src="https://optim.tildacdn.com/tild3439-3030-4335-b939-376535313039/-/resize/600x/-/format/webp/1f78771801c26d5cb23c.jpg"width="300px"  height="300px">
+                <p class="text_Oleh"><b><i>Олег</i></b> - найкращий <b><i>аніматор</i></b> який робить найкращі анімації нашій компанії.
+                    Номер:<b><i>185924017395</i></b></p>
+            </div>
+
+
+
+
+
+
+            <div class="Artem">
+                <img class="img_Artem" src="https://optim.tildacdn.com/tild3063-3336-4438-b064-666435383738/-/resize/600x/-/format/webp/fd11bd7d.jpg" width="300px" height="300px">
+                <p class="text_Artem"><b><i>Артем</i></b> - найкращий <b><i>програміст</i></b> який дуже швидко все робить. Номер:<b><i>284792740353</i></b></p>
+            </div>
+
+
+
+
+
+
+            <div class="Dima">
+                <img class="img_Dima" src="https://optim.tildacdn.com/tild3464-6435-4630-b064-306138336361/-/resize/600x/-/format/webp/1_Ir4QYEEGFbnBmcIfRR.jpg" width="300px" height="300px">
+                <p class="text_Dima"><b><i>Діма</i></b> - найкращий <b><i>кодер</i></b> зі всіх і він пише код краще ніж усі. Номер:<b><i>0982746183649</i></b>
+                </p>
+            </div>
+
+
+
+
+
+
+
+            <div class="Mark">
+                <img class="img_Mark"src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Mark_Zuckerberg_em_setembro_de_2014.jpg/250px-Mark_Zuckerberg_em_setembro_de_2014.jpg">
+                <p class="text_Mark"><b><i>Марк</i></b> - найкращий <b><i>командуючий</i></b> у всьому світі. Номер:<b><i>9087451836485</i></b></p>
+            </div>
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+        <aside class="information">
+            <p><b><i>Подзвонити</i></b> та <b><i>написати</i></b> компанії <b><i>World of programs</i></b> для порад або допомоги можна тут</p>
+            <a class="social"
+                href=""><img src="/uploads/2021/02/icon-set-1142000_1280%201_0_1613586391.png" width="30px" height="30px"></a>
+            <a class="social"
+                href=""><img src="/uploads/2021/02/instagram-3288419_1280%201_0_1613586391.png" width="30px" height="30px"></a>
+
+
+
+        </aside>
+
+        <h1 id="Music" class="mov_programs_h1">Мови програмування</h1>
+
+
+        <p class="world_of_programs_text_review">Зараз ми вам покажем які існують мови <b><i>програмування в світі</i></b>. Та погнлянемо на них щоб їх більш зрозуміти.</p>
+
+
+        <div class="video_programs_world">
+
+
+        <iframe width="400" height="300" class="video_isny"  class="iframe" src="https://www.youtube.com/embed/28JrLcach6Q"
+            title="Які існують мови програмування, та як обрати?" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <p class="mov_programs_isny">Давайте подивимось які існують мови програмування, адже їх є дуже <b><i>багато</i></b>.</p>
+        </div>
+
+
+
+            <p class="work_prog_want">Якщо ви хочете дізнатись на якій мові програмування <b><i>працювати</i></b> або <b><i>вивчити</i></b>, ми для вас приготували декілька
+            варіантів. Як <b><i>Python</i></b>, <b><i>JavaScript</i></b>, <b><i>Css</i></b>, <b><i>Html</i></b> та покажем вам їхні <b><i>складності</i></b>.</p>
+        <section class="programs_lag">
+
+            <h1 id="Sclad" class="difficulty_programs">Складності мов програмування</h1>
+
+
+
+
+
+
+            <h2 class="python_h2">Python</h2>
+            <div class="Python">
+
+            <img class="img_python" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" width="250px" height="250px">
+            <p class="text_python"><b><i>Python</i></b> це трошки <b><i>важка</i></b> мова програмування для початківців, адже там дуже багато команд і деколи можуть
+                бути <b><i>помилки</i></b> яких самим вирішити буде <b><i>дуже важко</i></b>. На <b><i>Python</i></b> є дуже багато бібліотек та Pygame як нова
+                частина Python. На Python можна робити дуже багато різних проєктів. Як: <b><i>Photoshop</i></b>, <b><i>Slider</i></b>, <b><i>Animations</i></b>,
+                <b><i>Fighting</i></b> і багато іншого.
+            </p>
+            </div>
+
+            <h2 class="Javascript_h2">JavaScript</h2>
+            <div class="JavaScript">
+            <img class="JavaScript_img" src="https://png.pngtree.com/png-vector/20220623/ourmid/pngtree-javascript-programming-language-code-coding-png-image_5288940.png" width="250px" height="250px">
+            <p class="text_Java_script"><b><i>JavaScript</i></b> <b><i>важка</i></b> мова програмування для новачків, адже там дуже багато <b><i>різних</i></b> та <b><i>важких</i></b> команд.
+                <b><i>JavaScript</i></b> можна використовувати разом з <b><i>Html</i></b>, <b><i>Css</i></b> та <b><i>Python</i></b>. Якщо ви не знаєте деякі команди, ви не
+                зможете зробити нічого на вашому сайті з <b><i>JavaScript</i></b>. Ця мова програмування хороша для анімацій або для
+                перевірок.
+            </p>
+
+            </div>
+
+
+
+            <h2 class="Html_h2">Html</h2>
+
+            <div class="Html">
+
+            <img class="Html_img" src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png" width="250px" height="250px">
+            <p class="Html_text"><b><i>Html</i></b> це мова програмування та вона <b><i>легка</i></b>, адже важких тут команд зовсім немає. Він <b><i>прикрашає</i></b> наший сайт
+                як прості <b><i>картинки</i></b>, <b><i>текст</i></b>, <b><i>відео</i></b> і так далі. Html легенька мова програмування використовується разом з
+                <b><i>Css</i></b> або разом з <b><i>Python</i></b>, <b><i>Css</i></b> і по бажанню <b><i>JavaScript</i></b>.</p>
+
+            </div>
+
+
+
+            <h2 class="Css_h2">Css</h2>
+
+            <div class="Css">
+
+
+
+            <img class="Css_img" src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" width="250px" height="250px">
+
+            <p class="Css_text"><b><i>Css</i></b> це легка мова програмування яка сама <b><i>не викоритовується</i></b>. Ця мова програмування створена для стилів в
+                <b><i>Html</i></b>, адже вона сама працювати не може. На цій мові програмування ви будете лише писати стилі та
+                анімації на вашому сайті.
+            </p>
+
+
+            
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <nav class="NAV">
+            <a href="#" class="about">Номер:<b><i>380932412812</i></b></a>
+            <a href="#" class="blog">адрес:<b><i> Київ</i></b></a>
+            <a href="#" class="projects">Компанія:<b><i>World of programs</i></b></a>
+            <a href="#" class="contact">Робота номер:<b><i>38075038375</i></b></a>
+        </nav>
+        <h1 id="information_2" class="information_2">World of programs інформація</h1>
+
+        <p class="putania">Отже якщо ви вибрали собі мову програмування ви можете подзвонити по цьому номері: <b><i>38075038375</i></b>, шоб почати навчання по цій мові або щоб почати на ній працювати. Та якщо у вас виникли питання щодо моєї компанії ви можете подзвонити по цьому номері: <b><i>380932412812</i></b> </p>
+
+  
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
